@@ -1,4 +1,4 @@
-header nav
+nav
 {
     background-color: navy;
     border: 1px solid black;
@@ -79,7 +79,6 @@ main section
 }
 .col-12
 {
-    margin: auto;
 }
 
 /* main article */
