@@ -8,15 +8,12 @@ header nav
 section
 {
     border: 1px solid black;
-    height: 500px;
     position: relative;
-    background-color: greenyellow;
     text-align: center;
 }
 
 main article{
     border: 1px solid black;
-    height: 500px;
     position: relative;
 }
 button
@@ -26,6 +23,11 @@ button
 .fl
 {
     float: left;
+}
+
+.verde
+{
+    background-color: greenyellow;
 }
 
 /* header section */
