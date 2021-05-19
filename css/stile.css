@@ -9,7 +9,10 @@ nav, nav div
     align-items: center;
 
 }
-
+nav
+{
+    background-color: navy;
+}
 
 
 
@@ -101,60 +104,74 @@ main section
 }
 
 /* main article */
- footer section
- {
-     background-color: blue;
-     height: 300px;
- }
 
- footer nav
- {
-     background-color: cornflowerblue;
-     height: 100px;
- }
+input
+{
+    width: 70%;
+}
 
- input
- {
-     width: 70%;
- }
-
- .bottone-send
- {
-     display: flex;
-     justify-content: left;
+.bottone-send
+{
+    display: flex;
+    justify-content: left;
      border: none;
- }
- button
- {
-     padding: 5px 10px;
+    }
+    button
+    {
+        padding: 5px 10px;
      background-color: lime;
      border: 1px solid white;
      margin-bottom: 20px ;
- }
-
-.flex-nav
-{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.cell
-{
-    display: none;
-}
-@media all and ( max-width: 576px) {
-
-    .cell
-    {
-        display: block;
-        padding: 20px;
     }
-
-    .atto
+    
+    .flex-nav
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .cell
     {
         display: none;
     }
+    @media all and ( max-width: 576px) {
+        
+        .cell
+        {
+            display: block;
+            padding: 20px;
+        }
+        
+        .atto
+        {
+            display: none;
+        }
+        
+        
+    }
 
-  
-}
+    @media all and (min-width:800px) {
 
+        .atto
+        {
+            padding-right: 100px;
+        }
+        .primo
+        {
+            padding-left: 100px;
+        }
+        
+    }
+    
+    /* footer */
+    footer section
+    {
+        background-color: blue;
+        height: 300px;
+    }
+    
+    footer nav
+    {
+        background-color: cornflowerblue;
+        height: 100px;
+    }
