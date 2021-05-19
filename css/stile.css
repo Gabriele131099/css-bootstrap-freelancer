@@ -17,15 +17,7 @@ section , article
     width: 100%;
 }
 
-main article{
-    position: relative;
-    
-}
-section button
-{
-    margin: auto;
-    width: auto;
-}
+
 .fl
 {
     float: left;
@@ -38,13 +30,6 @@ section button
 
 /* header section */
 
-.centra
-{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
-}
 .img
 {
     display: flex;
@@ -75,7 +60,6 @@ section button
 
 main section
 {
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
