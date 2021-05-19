@@ -59,7 +59,8 @@ section , article
 
 .verde
 {
-    background-color: greenyellow;
+    background-color: rgb(49, 150, 136);
+    padding: 5px;
 }
 /* HEADER NAV */
 
@@ -102,15 +103,22 @@ header nav
 .blocco
 {
     margin: 20px;
-    
 }
 
 img
 {
     width: 100%;
+    border-radius: 25px;
+
 }
 /* main section */
-
+.text-area
+{
+    height: 300px;
+    resize:none; 
+    overflow:auto;
+    width: 70%;
+}
 main section
 {
     flex-direction: column;
@@ -144,9 +152,9 @@ input
     button
     {
         padding: 5px 10px;
-     background-color: lime;
-     border: 1px solid white;
-     margin-bottom: 20px ;
+        background-color: rgb(49, 150, 136);
+        border: 1px solid white;
+        margin-bottom: 20px ;
     }
     
     .flex-nav
@@ -223,7 +231,3 @@ input
         justify-content: space-evenly;
     }
 
-    .flex i
-    {
-        border none;
-    }
