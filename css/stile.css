@@ -43,7 +43,6 @@ section , article
 {
     position: relative;
     text-align: center;
-    width: 100%;
 }
 
 .sistemare hr
@@ -183,16 +182,16 @@ input
         
     }
 
-    @media all and (min-width:800px) {
-
-        .atto
-        {
-            padding-right: 100px;
-        }
+    @media all and  (min-width:800px) {
         .primo
         {
             padding-left: 100px;
         }
+        .atto
+        {
+            padding-right: 100px;
+        }
+   
         
     }
     
@@ -214,6 +213,10 @@ input
     {
         background-color: cornflowerblue;
     }
+    .flex i 
+    {
+        border: none;
+    }
     i
     {
         border-radius: 50%;
@@ -231,3 +234,55 @@ input
         justify-content: space-evenly;
     }
 
+
+.cell i:hover .menu-burger
+{
+    display: block;
+
+}
+.cell 
+.cell  i:hover 
+{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+nav
+{
+    position: relative;
+
+}
+.menu-burger
+{
+    display: none;
+    width: 80vw;
+    height: 80vh;
+    background-color: rgba(150, 49, 88, 0.9);
+    position: absolute;
+    left: 0%;
+    z-index: 1001;
+    color: white;
+    border-radius: 50px 0px 50px 50px ;
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menu-burger ul 
+{
+    list-style-type: none;
+
+}
+
+.menu-burger ul li
+{
+    padding: 20px;
+    
+}
+
+footer nav
+{
+    justify-content: center;
+    padding: 30px;
+}
